@@ -44,10 +44,14 @@ body{
 .header__info1{
     color:var(--aqua-color);
     text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
 }
 .header__info2{
     color:var(--gray-color);
     text-decoration: none;
+    line-height:16px;
+    font-size: 14px;
 }
 
 .solutions {
