@@ -8,18 +8,20 @@
     --white-color:#FFFFFF;
     --blue-color:blue;
     --green-color:green;
+    --brightgray: #F5F4FA;
+
 }
 
 body{
     font-family: var(--primary-font);
 }
-<!--header section-->
 .header{
 }
 .header__logo{
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
+    line-height: 30px;
 }
 
 .header span{
@@ -47,16 +49,16 @@ body{
     color:var(--gray-color);
     text-decoration: none;
 }
-<!--solutions section-->
 
 .solutions {
     background-color:var(--brightblack-color);
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
-    
 }
+
 .solutions button{
     font-weight: 700;
     font-size: 16px;
@@ -66,10 +68,9 @@ body{
 }
 .solutions button:hover{
     color:var(--green-color);
-    cursor: pointer;
+    cursor:pointer;
 }
 
-<!--qualities section-->
 .qualities ul{
     list-style: none;
 }
@@ -82,52 +83,58 @@ body{
 }
 .qualities p{
     color:var(--gray-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
-<!--what we do section-->
-.what__we__do h2{
-color:#212121;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
+
+.what_we_do h2{
+    color:var(--black-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height:42px;
+    text-align: center;
 }
-<!--our team section-->
-.our__team h2{
-    color: #212121;
+
+.our_team h2{
+    color:var(--black-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
 }
-.our__team ul{
+.our_team ul{
     list-style: none;
-    color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
 }
-.footer{
-    background-color: #2F303A;
+.our_team_p1{
+    color: var(--black-color);
+    
+}
+.our_team_p2{
+    color: var(--gray-color);
 }
 
-<!--footer section-->
-
-.footer p{
-    font-weight: 700;
+.footer{
+    background-color:var(--brightblack-color);
     font-size: 26px;
     line-height: 31px;
-    color: white;
+    font-weight: 700;
+}
+.footer p{
+    color: var(--white-color);
+}
+
+.footer_p{
+    color:var(--white-color);
 }
 .footer span{
-    color: #2196F3;
+    color:var(--aqua-color);
 }
 .footer address{
-    color: white;
-    font-weight: 400;
+    color:var(--white-color);
     font-size: 14px;
     line-height: 16px;
 }
@@ -135,45 +142,40 @@ text-align: center;
     text-decoration: none;
 }
 .footer:hover{
-    color:green;
+    color:var(--green-color);
 }
 .footer a:hover{
-    color:green;
+    color:var(--green-color);
+}
+.buttons{
+    text-align: center;
+}
+.buttons button{
+    background-color:var(--brightgray);
+    color: var(--black-color);
+    text-align:center;
+    line-height: 26px;
+    font-size: 16px;
 }
 
-<!--Portofolio page-->
-
-<!--button section-->
-
-.buttons {
-    color:#212121;
-    font-weight:500;
-    font-size:16px;
-    line-height:26px;
+.buttons button:active,
+.buttons button:hover,
+.buttons button:focus{
+    color:var(--white-color);
+    background-color: var(--aqua-color);
 }
 
-.buttons:hover{
-    color:#FFFFFF;
-    background-color: #2196F3;
-    cursor:pointer;
-}
-
-<!--menu section-->
-
-.list__section li{
-    background-color: #EEEEEE;
+.list__section ul{
+    list-style:none;
 }
 .list__section__p1{
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    color: #212121;
+    color:var(--black-color);
 }
 .list__section__p2{
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #757575;
+    color: var(--gray-color);
 }
-
-
