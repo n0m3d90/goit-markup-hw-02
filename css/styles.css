@@ -1,0 +1,167 @@
+body{
+    font-family: "roboto",sans-serif;
+}
+<!--header section-->
+.header{
+}
+.header__logo{
+    font-family: "raleway",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.header span{
+    color: blue;
+}
+
+.header__navigation ul{
+   list-style: none;
+    font-weight: 500;
+}
+
+.header__navigation a{
+    text-decoration: none;
+    color:#212121;
+}
+.header__navigation a:hover{
+    color: #2196F3;
+}
+
+.header__info1{
+    color: #2196F3;
+    text-decoration: none;
+}
+.header__info2{
+    color:#757575;
+    text-decoration: none;
+}
+<!--solutions section-->
+
+.solutions {
+    background-color:#2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    
+}
+.solutions button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.solutions button:hover{
+    color: green;
+}
+
+<!--qualities section-->
+.qualities ul{
+    list-style: none;
+}
+
+.qualities h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color:#212121;
+}
+.qualities p{
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+<!--what we do section-->
+.what__we__do h2{
+color:#212121;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+<!--our team section-->
+.our__team h2{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.our__team ul{
+    list-style: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.footer{
+    background-color: #2F303A;
+}
+
+<!--footer section-->
+
+.footer p{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: white;
+}
+.footer span{
+    color: #2196F3;
+}
+.footer address{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer:hover{
+    color:green;
+}
+.footer a:hover{
+    color:green;
+}
+
+<!--Portofolio page-->
+
+<!--button section-->
+
+.buttons {
+    color:#212121;
+    background-color:#EEEEEE;
+    font-weight:500;
+    font-size:16px;
+    line-height:26px;
+}
+
+.buttons:hover{
+    color:#FFFFFF;
+    background-color: #2196F3
+    ;
+}
+
+<!--menu section-->
+
+.list__section li{
+    background-color: #EEEEEE;
+}
+.list__section__p1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+.list__section__p2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+
+
