@@ -1,17 +1,29 @@
+:root{
+    --primary-font:'roboto',sans-serif;
+    --secondary-font:'raleway',sans-serif;
+    --black-color:#212121;
+    --aqua-color:#2196F3;
+    --gray-color:#757575;
+    --brightblack-color:#2F303A;
+    --white-color:#FFFFFF;
+    --blue-color:blue;
+    --green-color:green;
+}
+
 body{
-    font-family: "roboto",sans-serif;
+    font-family: var(--primary-font);
 }
 <!--header section-->
 .header{
 }
 .header__logo{
-    font-family: "raleway",sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
 }
 
 .header span{
-    color: blue;
+    color:var(--blue-color);
 }
 
 .header__navigation ul{
@@ -24,21 +36,21 @@ body{
     color:#212121;
 }
 .header__navigation a:hover{
-    color: #2196F3;
+    color:var(--aqua-color);
 }
 
 .header__info1{
-    color: #2196F3;
+    color:var(--aqua-color);
     text-decoration: none;
 }
 .header__info2{
-    color:#757575;
+    color:var(--gray-color);
     text-decoration: none;
 }
 <!--solutions section-->
 
 .solutions {
-    background-color:#2F303A;
+    background-color:var(--brightblack-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -49,11 +61,12 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color:var(--white-color);
+    background-color:var(--aqua-color);
 }
 .solutions button:hover{
-    color: green;
+    color:var(--green-color);
+    cursor: pointer;
 }
 
 <!--qualities section-->
@@ -68,7 +81,7 @@ body{
     color:#212121;
 }
 .qualities p{
-    color: #757575;
+    color:var(--gray-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -134,7 +147,6 @@ text-align: center;
 
 .buttons {
     color:#212121;
-    background-color:#EEEEEE;
     font-weight:500;
     font-size:16px;
     line-height:26px;
@@ -142,8 +154,8 @@ text-align: center;
 
 .buttons:hover{
     color:#FFFFFF;
-    background-color: #2196F3
-    ;
+    background-color: #2196F3;
+    cursor:pointer;
 }
 
 <!--menu section-->
