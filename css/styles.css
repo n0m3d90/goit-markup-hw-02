@@ -61,7 +61,11 @@ body{
     color:var(--aqua-color);
     text-decoration: none;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
+}
+.header__info1:hover,
+.header__info1:focus{
+    color: var(--green-color);
 }
 .header__info2{
     color:var(--gray-color);
