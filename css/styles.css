@@ -1,3 +1,4 @@
+/* root section */
 :root{
     --primary-font:'roboto',sans-serif;
     --secondary-font:'raleway',sans-serif;
@@ -14,9 +15,12 @@
 
 body{
     font-family: var(--primary-font);
+    color: var(--black-color);
 }
+/* header section */
 .header{
 }
+
 .header__logo a{
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -28,8 +32,16 @@ body{
 .header span{
     color:var(--blue-color);
 }
+.header span:hover,
+.header span:focus{
+    color:var(--green-color);
+}
 .header__logo p{
     color: var(--black-color);
+}
+.header__logo p:hover,
+.header__logo p:focus{
+    color: var(--green-color);
 }
 
 .header__navigation ul{
@@ -57,7 +69,9 @@ body{
     line-height:1.14;
     font-size: 14px;
 }
+/* main section */
 
+/* solutions section */
 .solutions {
     background-color:var(--brightblack-color);
     color: var(--white-color);
@@ -73,6 +87,7 @@ body{
     line-height: 1.875;
     color:var(--white-color);
     background-color:var(--aqua-color);
+    cursor: pointer;
 }
 .solutions button:hover,
 .solutions button:focus,
@@ -81,7 +96,7 @@ body{
     background-color: var(--blue-color);
     cursor:pointer;
 }
-
+/* qualities section */
 .qualities ul{
     list-style: none;
 }
@@ -97,7 +112,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
 }
-
+/* what we do section */
 .what_we_do h2{
     color:var(--black-color);
     font-weight: 700;
@@ -105,7 +120,7 @@ body{
     line-height:1.16;
     text-align: center;
 }
-
+/* our team section */
 .our_team h2{
     color:var(--black-color);
     font-weight: 700;
@@ -127,37 +142,52 @@ body{
 .our_team_p2{
     color: var(--gray-color);
 }
-
+/* footer section */
 .footer{
     background-color:var(--brightblack-color);
     font-size: 26px;
     line-height: 1.19;
     font-weight: 700;
 }
-.footer p{
+.footer_atribut{
+    font-family: var(--secondary-font);
     color: var(--white-color);
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.19;
 }
-
-.footer_p{
-    color:var(--white-color);
+.footer_atribut:hover,
+.footer_atribut:focus{
+    color:var(--green-color);
 }
-.footer span{
-    color:var(--aqua-color);
+.footer_atribut span{
+    color: var(--aqua-color);
 }
-.footer address{
+.footer_atribut span:hover,
+.footer_atribut span:focus{
+    color: var(--green-color);
+}
+.footer_p2{
     color:var(--white-color);
     font-size: 14px;
     line-height: 1.14;
 }
-.footer a{
-    text-decoration: none;
-}
-.footer:hover{
+.footer_p2:hover,
+.footer_p2:focus{
     color:var(--green-color);
 }
-.footer a:hover{
-    color:var(--green-color);
+.header__info2{
+    color: var(--gray-color);
+    font-size: 14px;
+    line-height: 1.14;
 }
+.header__info2:hover,
+.header__info2:focus{
+    color: var(--green-color);
+}
+
+/* button section */
 .buttons{
     text-align: center;
 }
@@ -167,6 +197,7 @@ body{
     text-align:center;
     line-height: 1.62;
     font-size: 16px;
+    cursor:pointer;
 }
 
 .buttons button:active,
@@ -175,7 +206,7 @@ body{
     color:var(--white-color);
     background-color: var(--aqua-color);
 }
-
+/* list section */
 .list__section ul{
     list-style:none;
 }
@@ -190,3 +221,4 @@ body{
     line-height: 1.875;
     color: var(--gray-color);
 }
+
