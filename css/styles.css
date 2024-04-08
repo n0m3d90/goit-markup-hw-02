@@ -17,15 +17,19 @@ body{
 }
 .header{
 }
-.header__logo{
+.header__logo a{
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.15;
+    text-decoration: none;
 }
 
 .header span{
     color:var(--blue-color);
+}
+.header__logo p{
+    color: var(--black-color);
 }
 
 .header__navigation ul{
